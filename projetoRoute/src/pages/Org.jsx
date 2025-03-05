@@ -52,7 +52,7 @@ function Org() {
         <Table size="small">
           <TableHead
             style={{
-              backgroundColor: "#964B00",
+              backgroundColor: "#0000DD",
               borderStyle: "solid",
               borderColor: "#020202",
             }}

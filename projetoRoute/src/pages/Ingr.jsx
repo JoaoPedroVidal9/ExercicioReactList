@@ -52,7 +52,7 @@ function Ingresso() {
         <Table size="small">
           <TableHead
             style={{
-              backgroundColor: "#964B00",
+              backgroundColor: "#FFC222",
               borderStyle: "solid",
               borderColor: "#020202",
             }}

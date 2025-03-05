@@ -9,17 +9,19 @@ function Home() {
       sx={{
         display: "flex",
         flexDirection: "column",
+        justifyContent:'space-evenly',
         alignItems: "center",
+        minHeight: '100vh'
       }}
     >
       <Typo>Páginas:</Typo>
-      <Button component={Link} to="/events" sx={{ backgroundColor: "#964B00", borderColor:'#010101', borderWidth:'2px' }}>
+      <Button component={Link} to="/events" sx={{ color:'#010101', backgroundColor: "#964B00", border: '2px solid #010101'}}>
         Lista de Eventos:
       </Button>
-      <Button component={Link} to="/org" sx={{ backgroundColor: "#00008B", borderColor:'#010101', borderWidth:'2px' }}>
+      <Button component={Link} to="/org" sx={{ color:'#010101', backgroundColor: "#0000DD", border: '2px solid #010101'}}>
         Lista de Organizadores:
       </Button>
-      <Button component={Link} to="/ingr" sx={{ backgroundColor: "#FFC222", borderColor:'#010101', borderWidth:'2px' }}>
+      <Button component={Link} to="/ingr" sx={{ color:'#010101', backgroundColor: "#FFC222", border: '2px solid #010101'}}>
         Lista de Ingressos:
       </Button>
     </Container>

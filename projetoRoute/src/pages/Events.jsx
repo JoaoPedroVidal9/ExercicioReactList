@@ -45,8 +45,8 @@ function Events() {
     <div sx={{
       display:'flex',
       flexDirection:'column',
-      justifyContent:'center'
-      
+      justifyContent:'center',
+      minWidth:'100vh'
     }}>
       <h3>Lista de Eventos:</h3>
       <TableContainer component={Paper} style={{ margin: "2px" }}>
@@ -68,7 +68,14 @@ function Events() {
           <TableBody>{listEvents}</TableBody>
         </Table>
       </TableContainer>
+      <div sx={{
+        display:'flex',
+        justifyContent:'space-evenly',
+        width: '100%'
+      }}>
+      <Button component={Link} to='/criar'>Criar um Evento</Button>
       <Button component={Link} to='/'>Voltar</Button>
+      </div>
     </div>
   );
 }

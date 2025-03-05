@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
-import CreateEvent from "./pages/CreateEvent";
+import CreateEvent from "./pages/Create";
 import Org from "./pages/Org";
 import Ingr from "./pages/Ingr";
 
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/events" element={<Events/>} />
-        <Route path="/create" element={<CreateEvent/>} />
+        <Route path="/criar" element={<CreateEvent/>} />
         <Route path="/org" element={<Org/>} />
         <Route path="/ingr" element={<Ingr/>} />
       </Routes>
